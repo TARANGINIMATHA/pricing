@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pricing Table</title>
+   
+    <style>
+      body {
+        font-family: "Sono", sans-serif;
+      }
+      
+      .pricing-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:100vh;
+        gap:2rem;
+      }
+      .pricing-plan{
+        background-color:antiquewhite;
+        flex-basis: 400px;
+        border-radius:20px ;
+        padding:20px;
+        text-align:center;
+      }
+      .plan-title{
+        font-weight:bold;
+        font-size: 24px;
+        margin-bottom: 10px;
+        font-family:cursive;
+      }
+      .plan-price{
+        font-weight:bold;
+        font-size: 48px;
+        margin-bottom: 10px;
+        font-family:cursive;
+      }
+      .plan-features{
+      list-style:none;
+      padding:0;
+      margin:0;
+      }
+      .plan-features li {
+      margin-bottom: 20px;
+    
+    }
+    .plan-button{
+      background-color: orange;
+      color:white;
+      padding:10px;
+      border-radius: 5px;
+      border:0;
+      font-size:10px;
+      font-family: cursive;
+      font-weight:bold;
+    }
+    @media (max-width: 1250px){
+      .pricing-container{
+      flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="pricing-container">
+    <div class="pricing-plan">
+      <div class="plan-title">BASIC</div>
+      <div class="plan-price">$9.99/month</div>
+      <ul class="plan-features">
+        <li>✅10GB Storage</li>
+        <li>✅ 1 User</li>
+        <li>❌ Support</li>
+      </ul>
+      <button class="plan-button">CHOOSE</button>
+    </div>
+    <div class="pricing-plan">
+      <div class="plan-title">STANDARD</div>
+      <div class="plan-price">$19.99/month</div>
+      <ul class="plan-features">
+        <li>✅ 50GB Storage</li>
+        <li>✅ 5 Users</li>
+        <li>✅ Phone &amp; Email Support</li>
+    </ul>
+    <button class="plan-button">CHOOSE</button>
+  </div>
+  <div class="pricing-plan">
+    <div class="plan-title">PREMIUM</div>
+    <div class="plan-price">$49.99/month</div>
+    <ul class="plan-features">
+      <li>✅ 100GB Storage</li>
+      <li>✅ 10 Users</li>
+      <li>✅ 24/7 Support</li>
+    </ul>
+    <button class="plan-button">CHOOSE</button>
+  </div>
+</div>
+ </body>
+</html> 
+
+
+
+
+ 
+
+
+
+   
